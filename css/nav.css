@@ -62,6 +62,9 @@ footer {
     bottom: 0;
 }
 
+.mail{
+    height: 2.5em;
+}
 
 footer img{
     max-width: 3em;
