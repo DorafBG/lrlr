@@ -81,3 +81,7 @@ footer ul li > a:hover {
     font-size: 1.1em;
     transition: 0.5s 
 }
+
+footer ul li a{
+    transition: 0.5s;
+}
