@@ -8,9 +8,14 @@ body{
 }
 
 h1{
-    margin-top: 2em;
+    margin-top: 1.2em;
     font-size: 5em;
     text-shadow: -1px -1px 0 rgb(255 255 255), 1px -1px 0 rgb(255 255 255), -1px 1px 0 rgb(255 255 255), 1px 1px 0 rgb(255 255 255);
+}
+.desc{
+    color: aliceblue;
+    text-shadow: -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0);
+    font-size: 1.2em;
 }
 
 h1::after{
@@ -21,22 +26,32 @@ h1::before{
     content: "⌛";
 }
 
+main a{
+    display: block;
+}
+iframe {
+    display: block;
+    border-radius:12px;
+    text-align: center;
+    margin-left: 37%;
+ }
+
 button{
     font-family: 'Anton';
     background-color: black;
     color: rgb(255, 0, 0);
-
+    
     padding: 1em;
     padding-left: 3em;
-    padding-right: 3em;
+    padding-right: 3em; 
     font-size: 3em;
 
     min-width: 150px;
     width: auto;
     height: 15%;
     border-radius: 30px;
-    margin-top: 2em;
-    margin-bottom: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.1em; 
 }
 
 button img{
