@@ -37,7 +37,7 @@ iframe {
  }
 
 /*button{
-    font-family: 'Anton';
+    
     background-color: black;
     color: rgb(255, 0, 0);
     
@@ -71,6 +71,7 @@ button {
     --btn-color: rgb(136, 61, 61);
     border: .25em solid var(--glow-color);
 
+    font-family: 'Anton';
     padding: 1em;
     padding-left: 3em;
     padding-right: 3em; 
@@ -87,14 +88,12 @@ button {
            0 0 4em 1em var(--glow-spread-color),
            inset 0 0 .75em .25em var(--glow-color);
     text-shadow: 0 0 .5em var(--glow-color);
-    position: relative;
     transition: all 0.3s;
    }
    
    button::after {
     pointer-events: none;
     content: "";
-    position: absolute;
     top: 120%;
     left: 0;
     height: 100%;
