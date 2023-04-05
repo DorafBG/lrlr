@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+@import url("./mobileTL.css")(min-width: 0px) and (max-width: 1400px);
+@import url("../css/index.css");
+@import url("../css/nav.css");
+
+#footer{
+    bottom: auto;
+}
+
+header nav a:nth-child(2){
+    color:darkcyan;
+}

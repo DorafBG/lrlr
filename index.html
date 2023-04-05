@@ -2,20 +2,20 @@
    <html lang="fr">
       <head>
          <meta charset="utf-8">
-         <title> Doraf - LRLR </title> 
+         <title> Doraf - La Rue La Raie </title> 
 
-         <meta name="description" content="⌛LRLR⌛ BIENTÔT SUR LES PLATEFORMES">
+         <meta name="description" content="💩La Rue La Raie💩 DISPONIBLE DES MAINTENANT SUR TOUTES LES PLATEFORMES">
          <meta name="author" content="Doraf">
-	 <meta name="keywords" content="doraf, fiak, lrlr, nouvel album, musique, chansons, artiste, écouter">
+	 <meta name="keywords" content="doraf, fiak, lrlr, la rue la raie, nouvel album, musique, chansons, artiste, écouter">
          <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 
-         <meta property="og:title" content="Doraf - LRLR">
+         <meta property="og:title" content="Doraf - La Rue La Raie">
          <meta property="og:type" content="website">
          <meta property="og:url" content="https://lrlr.fr">
 	 <meta property="og:site_name" content="discord.io/doraf">
-         <meta property="og:description" content="Le tout nouvel album de Doraf 🔥 Disponible prochainement ⌛ Mais quel est son nom.. 🤔">
+         <meta property="og:description" content="Le tout nouvel album de Doraf 🔥 Disponible sur toutes les plateformes ET en physique 🔥 Viens prendre ton album 🔥">
          <meta property="og:footer" content="discord.io/doraf">
-         <meta property="og:image" content="https://lrlr.fr/img/discordcover.jpg">
+         <meta property="og:image" content="https://lrlr.fr/img/coveralbum.jpg">
          <meta content="#FF0000" data-react-helmet="true" name="theme-color">
 
 		 <link rel="icon" type="img/png" sizes="16x16" href="./img/doraflogo.jpg">
@@ -25,24 +25,36 @@
 	  <body id="body">	
 		<header id="header">
             <a href="https://lrlr.fr/">
-			<img id="doraflogo" src="./img/doraflogo.jpg" alt="Logo de Doraf">
+			<img id="doraflogo" src="./img/doraflogo.jpg" alt="Logo">
             </a>
 			<nav id="nav">
-				<a href="http://fiak.lrlr.fr/">Fiak</a>
+				<a href="http://fiak.lrlr.fr/" target="_blank" rel="noopener noreferrer">Fiak</a>
+                <a href="http://lrlr.fr/tracklist">Tracklist</a>
+                <a href="http://doraf.store/" target="_blank" rel="noopener noreferrer">Store</a>
+                
 			</nav>
 		</header>
 		
 		<main>
-            <h1 id="titre">LRLR</h1>
-            <p class="desc" id="desc">En attendant LRLR, tu peux écouter mon nouveau single :</p>
-            <div>
+            <h1 id="titre"><u>LRLR</u></h1>
+            <p class="desc" id="desc">Viens streamer et acheter le tout nouvel album de Doraf : </p>
+
             <a href="https://distrokid.com/hyperfollow/doraf/joyeux-anniversaire-aku">
-                <button id="bouton">Joyeux Anniversaire Aku</button>
+            <section class="cards">
+                <div class="card pika animated" id="card"></div>
+              </section>
             </a>
+            <!-- ceux qui veulent la source de la carte : https://codepen.io/simeydotme/pen/PrQKgo -->
+
+
+
             <p class="desc2" id="desc2">"Quitte à faire de la merde, autant le faire jusqu'au bout."</p>
             
-            </div>
+
+
 		</main>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+        <script src="cartes/cartes.js"></script>
 			
 			<footer id="footer">
             <ul>

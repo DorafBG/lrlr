@@ -3,3 +3,4 @@
 @import url("./css/mobile.css")(min-width: 0px) and (max-width: 1400px);
 @import url("./css/index.css");
 @import url("./css/nav.css");
+@import url(./cartes/cartes.css);

@@ -8,30 +8,76 @@ body{
 }
 
 h1{
-    margin-top: 1em;
-    font-size: 5.2em;
+    margin-top: 0.04em;
+    font-size: 5.1em;
     text-shadow: -1px -1px 0 rgb(255 255 255), 1px -1px 0 rgb(255 255 255), -1px 1px 0 rgb(255 255 255), 1px 1px 0 rgb(255 255 255);
 }
 .desc{
     color: aliceblue;
     text-shadow: -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0);
-    font-size: 1.4em;
+    font-size: 2.1em;
 }
 
 .desc2{
     color: aliceblue;
     text-shadow: -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0);
-    font-size: 1.5em;
+    font-size: 1.4em;
     margin-top: 1.2em;
+
+    font-style: italic;
+    visibility: hidden;
 }
 
-h1::after{
-    content: "⌛";
+/*h1::after{
+   content: "⌛";
 }
 
 h1::before{
     content: "⌛";
 }
+*/
+
+/* LRLR.FR/TRACKLIST */
+.titresecond{
+    margin-top: 0.1em;
+}
+
+ol{
+    color: aliceblue;
+    text-shadow: -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0);
+
+    padding: revert;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+
+    column-gap: 3em;
+
+    columns: 2;
+    font-size: 2.5em;
+}
+li{
+    margin-left: -10px;
+    text-align: left;
+}
+.liste a{
+    display: contents;
+    color: skyblue;
+    font-style: italic;
+}
+.liste .prod{
+    font-style: italic;
+    font-size: 0.35em;
+    margin-top: -10px;
+}
+
+
+
+
+
+
+
+
 
 main a{
     display: block;
@@ -43,6 +89,8 @@ iframe {
     margin-left: 37%;
  }
 
+
+/* ANCIEN BETA BUTTON */
 /*button{
     
     background-color: black;
@@ -71,6 +119,12 @@ button:hover{
 }
 */
 
+
+
+
+
+/* ANCIEN NOUVEAU BUTTON (joyeux anniv aku) */
+/*
 button {
     --glow-color: rgb(255, 217, 217);
     --glow-spread-color: rgba(253, 39, 39, 0.57);
@@ -79,11 +133,11 @@ button {
     border: .25em solid var(--glow-color);
 
     font-family: 'Anton';
-    padding: 1em;
+    padding: 0.8em;
     padding-left: 3em;
     padding-right: 3em; 
-    font-size: 3em;
-    margin-top: 1em;
+    font-size: 5em;
+    margin-top: 0.6em;
     cursor: pointer;
 
     color: var(--glow-color);
@@ -124,3 +178,5 @@ button {
            0 0 2.5em 2em var(--glow-spread-color),
            inset 0 0 .5em .25em var(--glow-color);
    }
+
+   */

@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+#titre{
+    margin-top: 1em;
+    font-size: 10em;
+}
+
+#doraflogo{
+    width: 100px;
+}
+
+#nav a{
+    font-size: 3em;
+}
+
+#liste{
+    font-size: 4em;
+    columns: unset;
+    margin-left: 2em;
+    
+}
+
+#liste li{
+    margin-bottom: 1em;
+}
+
+
+#body{
+    background-image: url("../img/mobilefond.jpg");
+    background-size: 220%;
+    background-position: -12em;
+    
+}
+
+#footer{
+    bottom: auto;
+}
+
+#footer img{
+    max-width: 4em;
+}
+#footer{
+    height: 4.05em;
+}
+
+#mail{
+    height: 3.8em;
+}
